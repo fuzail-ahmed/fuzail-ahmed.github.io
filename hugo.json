@@ -1,0 +1,79 @@
+{
+  "baseURL": "https://fuzail-ahmed.github.io/",
+  "languageCode": "en-us",
+  "title": "Fuzail Ahmed Ansari",
+  "theme": "PaperMod",
+  "outputs": {
+    "home": [
+      "HTML",
+      "RSS",
+      "JSON"
+    ]
+  },
+  "params": {
+    "env": "production",
+    "defaultTheme": "auto",
+    "ShowShareButtons": false,
+    "ShareButtons": [
+      "linkedin",
+      "x"
+    ],
+    "ShowReadingTime": true,
+    "ShowPostNavLinks": true,
+    "ShowCodeCopyButtons": true,
+    "ShowBreadCrumbs": true,
+    "ShowToc": true,
+    "UseHugoToc": true,
+    "mainSections": ["posts"],
+    "profileMode": {
+      "enabled": true,
+      "title": "Fuzail Ahmed Ansari 👋",
+      "subtitle": "**12+ Year Backend Engineer** | **5 Years Golang**\nBuilding **Microservices & Distributed Systems**.\nKubernetes, Docker, gRPC, PostgreSQL."
+    },
+    "author": {
+      "name": "Fuzail Ahmed Ansari"
+    },
+    "socialIcons": [
+      {
+        "name": "github",
+        "url": "https://github.com/fuzail-ahmed"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/fuzail-ahmed-ansari"
+      },
+      {
+        "name": "email",
+        "url": "mailto:fuzail1280@gmail.com"
+      }
+    ]
+  },
+  "menu": {
+    "main": [
+      {
+        "identifier": "about",
+        "name": "About Me",
+        "url": "/about/",
+        "weight": 10
+      },
+      {
+        "identifier": "experience",
+        "name": "Experience",
+        "url": "/experience/",
+        "weight": 10
+      },
+      {
+        "identifier": "education",
+        "name": "Education",
+        "url": "/education/",
+        "weight": 20
+      },
+      {
+        "identifier": "posts",
+        "name": "Blog",
+        "url": "/posts/",
+        "weight": 25
+      }
+    ]
+  }
+}
